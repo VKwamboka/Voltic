@@ -9055,13 +9055,14 @@
     position:relative;
     z-index:10
    }
-   .app-header__branding .wrap.row {
+   .app-header__branding .wrap.top-test {
     display:flex;
     justify-content:space-between;
+    margin: 0 14rem;
     align-items:center;
     padding:30px 0
    }
-   .app-header__branding .wrap.row:after {
+   .app-header__branding .wrap.top-test:after {
     content:none
    }
    .app-header__logo {
@@ -9092,16 +9093,17 @@
     font-size:90%;
     padding:10px 0
    }
-   .top_bar .wrap.row {
-    display:flex !important;
+   .top_bar .wrap.top-test{
+    display:flex ;
     flex-wrap:wrap !important;
     justify-content:space-between;
-    align-items:center
+    align-items:center;
+    margin-right: 14rem;
    }
-   .top_bar .wrap.row:after {
+   .top_bar .wrap.top-test:after {
     content:none
    }
-   .top_bar .wrap.row a {
+   .top_bar .wrap.top-test a {
     display:inline-block;
     padding:15px;
     border-radius:2px;
@@ -9114,7 +9116,7 @@
     text-transform:uppercase;
     margin:0 10px
    }
-   .top_bar .wrap.row a.products {
+   .top_bar .wrap.top-test a.products {
     background:#243572
    }
    .featured_gallery {
@@ -10614,7 +10616,7 @@
     .top_bar span:first-child {
      display:none
     }
-    .top_bar .wrap.row {
+    .top_bar .wrap.top-test {
      justify-content:flex-end
     }
     .about-voltic-hg:after,
@@ -10737,7 +10739,7 @@
     }
    }
    @media only screen and (max-width:600px) {
-    .top_bar .wrap.row a {
+    .top_bar .wrap.top-test a {
      padding:15px 5px
     }
     .top_bar .right {
@@ -10778,13 +10780,13 @@
     .app-header__logo {
      height:50px
     }
-    .top_bar .wrap.row a {
+    .top_bar .wrap.top-test a {
      margin:0
     }
     .top_bar {
      border-bottom:1px solid rgba(0,0,0,.2)
     }
-    .app-header__branding .wrap.row {
+    .app-header__branding .wrap.top-test {
      padding:10px 0
     }
    }
