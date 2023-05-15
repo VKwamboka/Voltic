@@ -5,71 +5,20 @@
     box-sizing: border-box;
     font-family:  'Noto Sans JP', sans-serif;;
 }
-.hero{
+/* .hero{
     background-image: url('../src/assets/background.jpeg');
     width: 100vw;
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
-}
-.container-fluid{
-    margin-top: 2rem;
-}
-.top_bar .wrap.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .wrap.row {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .right {
-    float: right !important;
-  }
-  .top_bar .wrap a{
-    background: #243572;
-  }
-  .top_bar .wrap.row a {
-    display: inline-block;
-    padding: 15px;
-    border-radius: 2px;
-    background: #8d8d8d;
-    color: #fff;
-    text-decoration: none;
-    font-family: Barlow Condensed,sans-serif;
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0 10px;
-  }
- .navbar-nav{
-    margin-left: 20rem;
- }
+} */
+
+ 
  .mininav{
     display: flex;
  }
 
-
-
-
-
-
-
- /* text */
- /*!
- * jQuery mmenu v7.2.2
- * @requires jQuery 1.7.0 or later
- *
- * mmenu.frebsite.nl
- *	
- * Copyright (c) Fred Heusschen
- * www.frebsite.nl
- *
- * License: CC-BY-NC-4.0
- * http://creativecommons.org/licenses/by-nc/4.0/
- */.mm-menu {
+.mm-menu {
     --mm-line-height:20px;
     --mm-listitem-size:44px;
     --mm-navbar-size:44px;
@@ -9144,8 +9093,8 @@
     padding:10px 0
    }
    .top_bar .wrap.row {
-    display:flex;
-    flex-wrap:wrap;
+    display:flex !important;
+    flex-wrap:wrap !important;
     justify-content:space-between;
     align-items:center
    }
