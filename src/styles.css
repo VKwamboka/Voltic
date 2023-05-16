@@ -6,11 +6,6 @@
     font-family:  'Noto Sans JP', sans-serif;;
 }
 
- 
- .mininav{
-    display: flex;
- }
-
 .mm-menu {
     --mm-line-height:20px;
     --mm-listitem-size:44px;
@@ -9683,7 +9678,7 @@
     color:#243572;
     padding:15px 0
    }
-   .app-footer .social_section .wrap.row {
+   .app-footer .social_section .wrap.so-section {
     display:flex;
     justify-content:center;
     align-items:center
