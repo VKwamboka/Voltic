@@ -9326,13 +9326,13 @@
     top:0;
     right:0;
     height:100%;
-    background:#f4ebeb url(/web/20220410164244im_/http://volticafrica.com/wp-content/themes/voltic/dist/img/pattern.svg) 100% no-repeat;
+    background:#f4ebeb url('../src/assets/pattern.svg') 100% no-repeat;
     background-size:100% auto;
     background-position:210px 60%
    }
    .about-voltic-hg:before {
     width:400px;
-    background:url(/web/20220410164244im_/http://volticafrica.com/wp-content/themes/voltic/dist/img/pattern.svg) 100% no-repeat;
+    background:url('../src/assets/pattern.svg') 100% no-repeat;
     background-size:auto 250px;
     background-position:100% 50%;
     right:auto;
