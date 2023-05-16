@@ -1,6 +1,29 @@
-/* .wrap{
-    display: flex;
+
+.about-voltic-hg::before {
+  width: 400px;
+  background: url("https://web.archive.org/web/20220410164244im_/http://volticafrica.com/wp-content/themes/voltic/dist/img/pattern.svg")
+    100% no-repeat;
+  background-position-x: 100%;
+  background-position-y: center;
+  background-size: auto;
+  background-size: auto 250px;
+  background-position: 100% 50%;
+  right: auto;
+  left: -300px;
 }
-.testing{
-    display: flex !important;
-} */
+.about-voltic-hg::after {
+  content: "";
+  width: 30%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: #f4ebeb
+    url("https://web.archive.org/web/20220410164244im_/http://volticafrica.com/wp-content/themes/voltic/dist/img/pattern.svg")
+    100% no-repeat;
+  background-position-x: 100%;
+  background-position-y: center;
+  background-size: auto;
+  background-size: 100% auto;
+  background-position: 210px 60%;
+}
