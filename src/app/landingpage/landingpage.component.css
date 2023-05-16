@@ -1,7 +1,7 @@
 
 .about-voltic-hg::before {
   width: 400px;
-  background: url("https://web.archive.org/web/20220410164244im_/http://volticafrica.com/wp-content/themes/voltic/dist/img/pattern.svg")
+  background: url("../../assets/pattern.svg")
     100% no-repeat;
   background-position-x: 100%;
   background-position-y: center;
@@ -19,7 +19,7 @@
   right: 0;
   height: 100%;
   background: #f4ebeb
-    url("https://web.archive.org/web/20220410164244im_/http://volticafrica.com/wp-content/themes/voltic/dist/img/pattern.svg")
+    url("../../assets/pattern.svg")
     100% no-repeat;
   background-position-x: 100%;
   background-position-y: center;
