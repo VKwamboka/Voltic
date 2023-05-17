@@ -9,6 +9,8 @@ const routes: Routes = [
   {path:'products',loadComponent:()=>import('./products/products.component').then(p =>p.ProductsComponent)},
   {path:'product/iabiri',loadComponent:()=>import('./iabiri/iabiri.component').then(i => i.IabiriComponent)},
   {path:'product/boss',loadComponent:()=>import('./boss/boss.component').then(b => b.BossComponent)},
+  {path:'social-impact',loadComponent:()=>import('./social-impact/social-impact.component').then(s => s.SocialImpactComponent)},
+
 
 ];
 
