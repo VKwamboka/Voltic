@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family:  'Noto Sans JP', sans-serif;;
+    
 }
+
 
 .mm-menu {
     --mm-line-height:20px;
