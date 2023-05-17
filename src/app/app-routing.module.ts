@@ -8,7 +8,7 @@ const routes: Routes = [
   {path:'contact-us',loadComponent:()=>import('./contact/contact.component').then(c=>c.ContactComponent)},
   {path:'products',loadComponent:()=>import('./products/products.component').then(p =>p.ProductsComponent)},
   {path:'product/iabiri',loadComponent:()=>import('./iabiri/iabiri.component').then(i => i.IabiriComponent)},
-
+  {path:'product/boss',loadComponent:()=>import('./boss/boss.component').then(b => b.BossComponent)},
 
 ];
 
