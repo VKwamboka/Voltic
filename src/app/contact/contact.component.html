@@ -64,12 +64,13 @@
               <h4>Trial</h4>
               <mat-form-field>
                 <mat-label>Favorite Company</mat-label>
-                <mat-select [(ngModel)]="selectedValue" [ngModelOptions]="{standalone: true}"  [value]="companies" (change)="onSelect($event)">
+                <mat-select [(ngModel)]="selectedValue" [ngModelOptions]="{standalone: true}" (change)="onSelect($event)">
                   <mat-option *ngFor="let company of companies" [value]="company.value" style="color: brown;">
                     {{company.viewValue}}
                   </mat-option>
                 </mat-select>
               </mat-form-field>
+              
 
 
               <p><label>Select your query type</label></p>

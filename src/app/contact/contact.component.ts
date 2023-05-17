@@ -5,6 +5,7 @@ import { NavbarComponent } from '../navbar/navbar.component';
 import { FooterComponent } from '../footer/footer.component';
 import { MatSelectModule } from '@angular/material/select';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 
 
@@ -16,7 +17,7 @@ interface Companies {
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule,RouterModule,NavbarComponent,FooterComponent,MatSelectModule,FormsModule,ReactiveFormsModule],
+  imports: [CommonModule,RouterModule,NavbarComponent,FooterComponent,MatSelectModule,FormsModule,ReactiveFormsModule,MatFormFieldModule],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
