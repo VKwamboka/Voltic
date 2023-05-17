@@ -4,7 +4,7 @@ import { RouterModule } from '@angular/router';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { FooterComponent } from '../footer/footer.component';
 import { MatSelectModule } from '@angular/material/select';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -16,7 +16,7 @@ interface Companies {
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule,RouterModule,NavbarComponent,FooterComponent,MatSelectModule,FormsModule],
+  imports: [CommonModule,RouterModule,NavbarComponent,FooterComponent,MatSelectModule,FormsModule,ReactiveFormsModule],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
